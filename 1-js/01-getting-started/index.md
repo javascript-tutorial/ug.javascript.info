@@ -1,3 +1,3 @@
-# An introduction
+# قىسقىچە چۈشەنچە
 
-About the JavaScript language and the environment to develop with it.
+مەزمۇنى: JavaScript تىلى ۋە ئۇنىڭ بىلەن ئىشلەيدىغان، تۈر ئاچىدىغان مۇھىت ھەققىدە

@@ -1,6 +1,6 @@
-# The JavaScript language
+# جاۋاسىكرىپت (JavaScript) تېلى
 
-Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP.
+بۇ يەردە بىز JavaScript نى نۆلدىن باشلاپ ئۆگىنىمىز ۋە OOP قاتارلىق ئىلغار ئۇقۇملارغا ئۆتىمىز.
 
-We concentrate on the language itself here, with the minimum of environment-specific notes.
+بىز بۇ يەردە ئەڭ كىچىك (تۆۋەن) بولغان مۇھىتقا با باغلانغان خاتىرلەر ئارقىلىق ئاساسىي مەقسەت ھەم دىققەتنى بۇ تىلنىڭ ئۆزىگە قارىتىمىز
 

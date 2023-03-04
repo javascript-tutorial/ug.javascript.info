@@ -47,12 +47,6 @@ Windows ئۈچۈن يەنە «Visual Studio» مۇ بار، بۇنى «Visual St
 
 ئاپتورنىڭ شەخسى كۆز قارىشى:
 
-
-
-The choice of an editor, like any other tool, is individual and depends on your projects, habits, and personal preferences.
-
-The author's personal opinion:
-
 - كۆپ قىسىم ئالدى بەت ئىچىش بىلەن شۇغۇللانسام [Visual Studio Code](https://code.visualstudio.com) نى ئىشلىتىمەن.
 - ئۇنداق بولمىغاندا كۆپىنچە باشقا تىل/سۇپا ۋە قىسمەن ئالدى بەت ئىچىش بولسا، تىلغا ئاساسەن XCode (Mac), Visual Studio (Windows) ياكى Jetbrains نىڭ بىرتۇتاش تەھرىرلىگۈچلىرى (Webstorm, PHPStorm, RubyMine قاتارلىقلار) قاتارلىق باشقا تەھرىرلىگۈچلەرنى ئويلىشىپ بېقىڭ.
 

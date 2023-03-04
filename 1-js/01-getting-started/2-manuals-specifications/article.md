@@ -1,37 +1,37 @@
 
-# Manuals and specifications
+# قوللانمىلار ۋە كونكىرتلەر
 
-This book is a *tutorial*. It aims to help you gradually learn the language. But once you're familiar with the basics, you'll need other resources.
+بۇ كىتاب بىر *دەرسلىك*. ئۇ سىزنىڭ تىلنى بىرقەدەم-بىرقەدەمدىن ئۆگىنىشىڭىزگە ياردەم بېرىشنى مەقسەت قىلىدۇ. ئەمما ئاساسىي بىلىملەرنى پىششىق ئىگەللىگەندىن كىيىنمۇ ھامان باشقا بايلىقلارغا ئېھتىياجلىق بولىسىز.
 
-## Specification
+## كونكرېت (يەنى ئۆلچەم)
 
-[The ECMA-262 specification](https://www.ecma-international.org/publications/standards/Ecma-262.htm) contains the most in-depth, detailed and formalized information about JavaScript. It defines the language.
+[262_ECMA](https://www.ecma-international.org/publications/standards/Ecma-262.htm)ئۆلچىمى JavaScript گە مۇناسىۋەتلىك ئەڭ چوڭقۇر، ئىنچىكە ۋە رەسمىيلەشكەن ئۇچۇرلارنى ئۆز ئىچىگە ئالىدۇ. يەنى مۇشۇ تىلنى بەلگىلەيدۇ.
 
-But being that formalized, it's difficult to understand at first. So if you need the most trustworthy source of information about the language details, the specification is the right place. But it's not for everyday use.
+ئەمما بۇ شۇنداق رەسمىيلەشكەنلىكتىن، دەسلەپتە چۈشىنىش تەس. شۇڭا تىل تەپسىلاتلىرى ھەققىدە ئەڭ ئىشەنچلىك ئۇچۇر مەنبەسىگە ئىھتىياجلىق بولسىڭىز، بۇ ئۆلچەمنى ئاختۇرسىڭىز دەل جايىدا بولىدۇ. ئەمما كۈندىلىك ئىشلىتىش ئۈچۈن ئەمەس.
 
-A new specification version is released every year. Between these releases, the latest specification draft is at <https://tc39.es/ecma262/>.
+ھەر يىلى يېڭى بىر خاسلىق ئۆلچەم نۇسخىسى ئېلان قىلىنىدۇ. ئەڭ يېڭى ئۆلچەم لايىھەسى:<https://tc39.es/ecma262>
 
-To read about new bleeding-edge features, including those that are "almost standard" (so-called "stage 3"), see proposals at <https://github.com/tc39/proposals>.
+«ئاساسلىق ئۆلچەم» (ئاتالمىش «3-باسقۇچ») نى ئۆز ئىچىگە ئالغان يېڭىلىق خاراكتېرلىك ئالاھىدىلىكلەرنى ئوقۇش ئۈچۈن<https://github.com/tc39/proposals>غا كىرىپ بىقىشىڭىزنى تەۋسىيە قىلىمىز.
 
-Also, if you're developing for the browser, then there are other specifications covered in the [second part](info:browser-environment) of the tutorial.
+يەنە، تور كۆرگۈچ ئۈچۈن ياكى شۇنىڭدا ئەپ ئىچىۋاتقان بولسىڭىز، دەرسلىكنىڭ [ئىككىنچى قىسىم](info:browser-environment) دا قاپلانغان باشقا ئۆلچەم خاسلىقلىرى بار.
 
-## Manuals
+## قوللانمىلار
 
-- **MDN (Mozilla) JavaScript Reference** is the main manual with examples and other information. It's great to get in-depth information about individual language functions, methods etc.
+- **MDN (Mozilla) JavaScript پايدىلىنىش ماتىريالى** مىساللار ۋە باشقا ئۇچۇرلارنى ئۆزئىچىگە ئالىدىغان ئاساسلىق قوللانما. تىلنىڭ ئايرىم فۇنكىسىيە ياكى مىتود قاتارلىق تېخمۇ چوڭقۇر ئۇچۇرلىرىغا ئىرىشىشتىكى ياخشى تاللاش ھىسابلىنىدۇ.
 
-    You can find it at <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>.
+سىز بۇ ئۇچۇرلانى <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference> تا تاپالايسىز.
 
-Although, it's often best to use an internet search instead. Just use "MDN [term]" in the query, e.g. <https://google.com/search?q=MDN+parseInt> to search for the `parseInt` function.
+مەلۇم خاسلىقنى تور ئىزدەشنى ئىشلەتسە ئەڭ ياخشى بولىدۇ. سۈرۈشتۈرۈشتە پەقەت «MDN+[ئاتالغۇ]» نى ئىشلەتسىڭىزلا بولىدۇ، مەسىلەن `parseInt` نى ئىزدىمەكچى بولسىڭىز ھەرقايسى ئىزدەش ماتورلىرىغا <https://bing.com/search?q=MDN+parseInt>ئۇسۇلى ئارقىلىق بىۋاستە شۇ مەزمۇننى ئىزدىيەلەيسىز.
 
-## Compatibility tables
+## ماسلىشىشچانلىق(Compatibility) جەدۋىلى
 
-JavaScript is a developing language, new features get added regularly.
+JavaScript يەنىلا تەرەققىي قىلىۋاتقان تىل بولۇپ، يېڭى ئىقتىدارلار قەرەللىك قوشۇلىدۇ.
 
-To see their support among browser-based and other engines, see:
+ئۇلارنىڭ تور كۆرگۈچنى ئاساس قىلغان ۋە باشقا ماتورلار ئارىسىدا قوللايدىغان ئىقتىدارلىرى:
 
-- <https://caniuse.com> - per-feature tables of support, e.g. to see which engines support modern cryptography functions: <https://caniuse.com/#feat=cryptography>.
-- <https://kangax.github.io/compat-table> - a table with language features and engines that support those or don't support.
+- <https://caniuse.com> - ھەر-بىر ئىقتىدارلارنى قوللاش جەدۋىلى، مەسىلەن، قايسى ماتورلارنىڭ ھازىرقى زامان مەخپى-شېفىر (cryptography) ئىقتىدارىنى قوللايدىغانلىقىنى كۆرۈش: <https://caniuse.com/#feat=cryptography>دا مۇشۇنداق ئىزدىسەكلا بولىدۇ
+- <https://kangax.github.io/compat-table> - قوللايدىغان ياكى قوللىمايدىغان تىل ئالاھىدىلىكى ۋە ماتورلىرى بار جەدۋەل
 
-All these resources are useful in real-life development, as they contain valuable information about language details, their support, etc.
+بۇ ماتىرياللارنىڭ ھەممىسى تىل تەپسىلاتلىرى، قوللاش قاتارلىقلارغا ئائىت قىممەتلىك ئۇچۇرلارنى ئۆز ئىچىگە ئالغان بولغاچقا، ئەمەلىي ئەپ ياكى توربەت ئىچىش ئىشلىرىدا كۆپ پايدىسى بار.
 
-Please remember them (or this page) for the cases when you need in-depth information about a particular feature.
+مەلۇم بىر ئىقتىدار ھەققىدە چوڭقۇر مەلۇماتقا ئىھتىياجلىق بولغاندا ئۇلارنى (ياكى بۇ توربىكەتنى) ئىشلىتىشنى ئۇنۇتماڭ.

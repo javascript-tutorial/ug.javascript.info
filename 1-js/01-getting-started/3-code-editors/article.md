@@ -1,49 +1,58 @@
-# Code editors
+# كود تەھرىرلىگۈچلەر
 
-A code editor is the place where programmers spend most of their time.
+كود تەھرىرلىگۈچ بولسا پىروگراممېرلارنىڭ كۆپ قىسىم ۋاقتىنى ئۆتكۈزىدىغان قوراللارنىڭ بىرى.
 
-There are two main types of code editors: IDEs and lightweight editors. Many people use one tool of each type.
+كود تەھرىرلىگۈچى ئاساسلىق ئىككى خىل بولىدۇ: IDE لار يەنى مەخسۇس ئىچىش مۇھىتى ھازىرلانغان تەھرىرلىگۈچ ۋە يېنىك تەھرىرلىگۈچ. نۇرغۇن ئاچقۇچىلار ھەر بىر خىل قورالدىن بىرنى ئىشلىتىدۇ.
 
 ## IDE
 
-The term [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) (Integrated Development Environment) refers to a powerful editor with many features that usually operates on a "whole project." As the name suggests, it's not just an editor, but a full-scale "development environment."
+IDE (Integrated Development Environment) ئاتالغۇسى ئادەتتە بىر «پۈتۈن تۈر» دا مەشغۇلات قىلىدىغان نۇرغۇن ئىقتىدارلارغا ئىگە كۈچلۈك تەھرىرلىگۈچنى كۆرسىتىدۇ. ئىسمىدىن چىقىپ تۇرۇپتۇكى، ئۇ پەقەت تەھرىرلىگۈچلا ئەمەس، بەلكى «پۈتۈن كۆلەملىك مەخسۇس ئىچىش مۇھىتى».
 
-An IDE loads the project (which can be many files), allows navigation between files, provides autocompletion based on the whole project (not just the open file), and integrates with a version management system (like [git](https://git-scm.com/)), a testing environment, and other "project-level" stuff.
+IDE تۈرنى (نۇرغۇن ھۆججەتلەر بار بولغان) يۈكلەيدۇ، ھۆججەتلەر ئارىسىدا ئۆز-ئارا ئاتلاشقا رۇخسەت قىلىدۇ، پۈتۈن تۈرنى (پەقەت ئوچۇق تۇرغان ھۆججەتنىلا ئەمەس) ئاپتوماتىك تولۇقلاش ئىقتىدارى بىلەن تەمىنلەيدۇ ھەمدە نەشر باشقۇرۇش سېستىمىسى (git قا ئوخشاش)، سىناش مۇھىتى ۋە باشقا «تۈر دەرىجىلىك» نەرسىلەرنى بىرلەشتۈرىدۇ.
 
-If you haven't selected an IDE yet, consider the following options:
+قايسى IDE نى ئىشلىتىشىنى تېخى تاللىمىغان بولسىڭىز، تۆۋەندىكى تاللاشلارنى ئويلىشىپ بېقىڭ:
 
-- [Visual Studio Code](https://code.visualstudio.com/) (cross-platform, free).
-- [WebStorm](https://www.jetbrains.com/webstorm/) (cross-platform, paid).
+- [Visual Studio Code](https://code.visualstudio.com) (سۇپا-ھالقىغان، ھەقسىز)
+- [WebStorm](https://www.jetbrains.com/webstorm) (سۇپا-ھالقىغان، ھەقلىق)
 
-For Windows, there's also "Visual Studio", not to be confused with "Visual Studio Code". "Visual Studio" is a paid and mighty Windows-only editor, well-suited for the .NET platform. It's also good at JavaScript. There's also a free version [Visual Studio Community](https://www.visualstudio.com/vs/community/).
+Windows ئۈچۈن يەنە «Visual Studio» مۇ بار، بۇنى «Visual Studio Code» بىلەن ئارلاشتۇرۇپ قويماڭ. «Visual Studio» ھەقلىق ھەم پەقەت Windows  تا بار بولغان تەھرىرلىگۈچ بولۇپ، .NET سۇپىسىغا ناھايىتى ماس كېلىدۇ. JavaScript نىمۇ ھەم ياخشى قوللايدۇ. ئۇنىڭ يەنە ھەقسىز نەشرى بار [Visual Studio Community](https://www.visualstudio.com/vs/community).
 
-Many IDEs are paid, but have a trial period. Their cost is usually negligible compared to a qualified developer's salary, so just choose the best one for you.
+نۇرغۇن IDEs لار ھەقلىق ، ئەمما سىناپ ئىشلىتىش مۇددىتى بولىدۇ. ئۇلارنىڭ تەننەرخى ئادەتتە بىر لاياقەتلىك ئاچقۇچىلارنىڭ مائاشىغا سېلىشتۇرغاندا ناھايتى ئەرزان ھىسابلىنىدۇ، شۇڭا ئۆزىڭىز ئۈچۈن بىرنى تاللاپ قويۇڭ.
 
-## Lightweight editors
+## يېنىك تىپتىكى تەھرىرلىگۈچلەر
 
-"Lightweight editors" are not as powerful as IDEs, but they're fast, elegant and simple.
+«يېنىك تىپتىكى تەھرىرلىگۈچ» لەر IDE لاردەك كۈچلۈك ئەمەس، ئەمما تېز، نەپىس ھەم ئاددىي.
 
-They are mainly used to open and edit a file instantly.
+ئۇلار ئاساسلىقى بىر ھۆججەتنى دەرھال ئېچىش ۋە تەھرىرلەش ئۈچۈن ئىشلىتىلىدۇ.
 
-The main difference between a "lightweight editor" and an "IDE" is that an IDE works on a project-level, so it loads much more data on start, analyzes the project structure if needed and so on. A lightweight editor is much faster if we need only one file.
+«يېنىك تىپتىكى تەھرىرلىگۈچ» بىلەن «IDE» نىڭ ئاساسلىق پەرقى IDE تۈر قاتلىمىدا ئىشلەيدۇ، شۇڭا ئۇ قوزغالغاندا تېخىمۇ كۆپ سانلىق مەلۇماتلارنى ئوقۇيدۇ، زۆرۈر بولغاندا تۈر قۇرۇلمىسىنى تەھلىل قىلىدۇ. بىر يېنىك تىپتىكى تەھرىرلىگۈچ پەقەت بىرلا ھۆججەتكە ئىھتىياجلىق بولغاچقا سۈرئىتى تېخىمۇ تېز بولىدۇ.
 
-In practice, lightweight editors may have a lot of plugins including directory-level syntax analyzers and autocompleters, so there's no strict border between a lightweight editor and an IDE.
+ئەمەلىيەت داۋامىدا، يېنىك تەھرىرلىگۈچتە مۇندەرىجە دەرىجىلىك سىنتاكسىسلىق ئانالىزچى قۇراللار ۋە ئاپتوماتىك كود تولۇقلىغۇچى قاتارلىقلارنى ئۆز ئىچىگە ئالغان نۇرغۇن قىستۇرمىلار بولۇشى مۇمكىن، شۇڭا يېنىك تەھرىرلىگۈچ بىلەن IDE ئوتتۇرىسىدا قاتتىق چېگرا يوق.
 
-There are many options, for instance:
+بۇيەردە كۆپ خىل تاللاشلار بار، مەسىلەن:
 
-- [Sublime Text](https://www.sublimetext.com/) (cross-platform, shareware).
-- [Notepad++](https://notepad-plus-plus.org/) (Windows, free).
-- [Vim](https://www.vim.org/) and [Emacs](https://www.gnu.org/software/emacs/) are also cool if you know how to use them.
+- [Sublime Text](https://www.sublimetext.com) (سۇپا-ھالقىغان،ھەمبەھىر ھالەتتە ھەقسىز، يەنى Shareware)
+- [Notepad++](https://notepad-plus-plus.org) (ۋىندوۋستا ئىشلەيدۇ، ھەقسىز)
+- [Vim](https://www.vim.org) ۋە[Emacs](https://www.gnu.org/software/emacs) لەرمۇ قانداق ئىشلىتىشنى بىلۋالسىڭىزلا شۇنداق ياخشى تەھرىرلىگۈچلەردۇر.
 
-## Let's not argue
 
-The editors in the lists above are those that either I or my friends whom I consider good developers have been using for a long time and are happy with.
 
-There are other great editors in our big world. Please choose the one you like the most.
+## ئەمدى ئىككىلەنمەڭ
+
+يۇقارقى تىزىملىكتىكى تەھرىرلىگۈچلەر مەن ياكى مەن ياخشى پىروگراممېر دەپ قارىغان دوستلىرىم ئۇزۇندىن بېرى ئىشلىتىپ كەلگەن ۋە راھەت ھىس قىپ كەلگەن تەھرىرلىگۈچلەردۇر.
+
+شۇنچە چوڭ دۇنيادا يەنە باشقا ئېسىل تەھرىرلىگۈچلەر بار. ئۆزىڭىز ئەڭ ياقتۇرىدىغىنىڭىزنى تاللاڭ.
+
+تەھرىرلىگۈچنى تاللاش خۇددى باشقا ھەر قانداق قورالغا ئوخشاش شەخسى ھالدا تۈر، ئادەت ۋە شەخسىي قىزىقىشىڭىزغا باغلىق.
+
+ئاپتورنىڭ شەخسى كۆز قارىشى:
+
+
 
 The choice of an editor, like any other tool, is individual and depends on your projects, habits, and personal preferences.
 
 The author's personal opinion:
 
-- I'd use [Visual Studio Code](https://code.visualstudio.com/) if I develop mostly frontend.
-- Otherwise, if it's mostly another language/platform and partially frontend, then consider other editors, such as XCode (Mac), Visual Studio (Windows) or Jetbrains family (Webstorm, PHPStorm, RubyMine etc, depending on the language).
+- كۆپ قىسىم ئالدى بەت ئىچىش بىلەن شۇغۇللانسام [Visual Studio Code](https://code.visualstudio.com) نى ئىشلىتىمەن.
+- ئۇنداق بولمىغاندا كۆپىنچە باشقا تىل/سۇپا ۋە قىسمەن ئالدى بەت ئىچىش بولسا، تىلغا ئاساسەن XCode (Mac), Visual Studio (Windows) ياكى Jetbrains نىڭ بىرتۇتاش تەھرىرلىگۈچلىرى (Webstorm, PHPStorm, RubyMine قاتارلىقلار) قاتارلىق باشقا تەھرىرلىگۈچلەرنى ئويلىشىپ بېقىڭ.
+

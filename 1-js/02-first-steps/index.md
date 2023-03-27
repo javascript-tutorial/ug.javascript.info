@@ -1,3 +1,3 @@
-# JavaScript Fundamentals
+# ؜JavaScript تۈپكى ئاساس قىسمى
 
-Let's learn the fundamentals of script building.
+؜Script يىزىش ئارقىلىق تۈپكى ئاساس بىلىملىرنى ئۈگىنىشنى باشلاپ كىتەيلى!

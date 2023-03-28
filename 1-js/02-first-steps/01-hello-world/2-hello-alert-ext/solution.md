@@ -1,8 +1,8 @@
-The HTML code:
+؜HTML كودى:
 
 [html src="index.html"]
 
-For the file `alert.js` in the same folder:
+ئوخشاش ھۆججەت قىسقۇچتىكى `alert.js` ھۆججىتى:
 
 [js src="alert.js"]
 

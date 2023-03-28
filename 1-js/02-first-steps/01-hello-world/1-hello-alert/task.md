@@ -2,11 +2,11 @@ importance: 5
 
 ---
 
-# Show an alert
+# ئەسكەرتمىنى (Alert) كۆرسىتىش
 
-Create a page that shows a message "I'm JavaScript!".
+؜«I'am JavaScript!» دېگەن خەتنى كۆرسىتىدىغان بەت قۇرۇش.
 
-Do it in a sandbox, or on your hard drive, doesn't matter, just ensure that it works.
+بىخەتەر ساندۇقىدا ياكى مۇشۇ بەتتكى ھۆججەتە قىلىك، لىكىن ھېچقىسى يوق، پەقەت ئۇنىڭ ئىشلىشىگە كاپالەتلىك قىلسىڭىزلا بولدى.
 
 [demo src="solution"]
 

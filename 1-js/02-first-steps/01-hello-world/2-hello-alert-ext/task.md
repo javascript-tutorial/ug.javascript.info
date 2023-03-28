@@ -2,8 +2,8 @@ importance: 5
 
 ---
 
-# Show an alert with an external script
+# ئەسكەرتمىنى ئايرىم ھۆججەتكە يزىىپ كۆرسىتىش
 
-Take the solution of the previous task <info:task/hello-alert>. Modify it by extracting the script content into an external file `alert.js`, residing in the same folder.
+ئالدىنقى ۋەزىپە <info:task/hello-alert> نىڭ ھەل قىلىش چارىسىنى قوللىنىڭ.  كود مەزمۇنىنى تاشقى ھۆججەت «alert.js» غا چىقىرىپ، ئوخشاش ھۆججەت قىسقۇچتا قويۇش ئارقىلىق ئۆزگەرتىڭ.
 
-Open the page, ensure that the alert works.
+بەتنى ئېچىپ، ئەسكەرتمىنىڭ نورمال ئىشلىشىگە كاپالەتلىك قىلىڭ.

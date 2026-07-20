@@ -74,7 +74,12 @@
 
   
 
+<<<<<<< HEAD
   - بىر تور بەتتىكى JavaScript قاتتىق دىسكىدا خالىغانچە ھۆججەتلەرنى ئوقۇمايدۇ/ يازمايدۇ، كۆچۈرۈپ چاپلىمايدۇ ياكى پىروگراممىلارنى ئىجرا قىلمايدۇ. ئۇنىڭ OS (مەشغۇلات سىستېمىسى) ئىقتىدارىغا بىۋاسىتە كىرىش ئىجازىتى يوق.
+=======
+    This limitation is, again, for the user's safety. A page from `http://anysite.com` which a user has opened must not be able to access another browser tab with the URL `http://gmail.com`, for example, and steal information from there.
+- JavaScript can easily communicate over the net to the server where the current page came from. But its ability to receive data from other sites/domains is severely limited. Though possible, it requires explicit agreement (expressed in HTTP headers) from the remote side. Once again, that's a safety limitation.
+>>>>>>> 725653fd99b19d42195e837ac3bb23c1784f8f6e
 
     ھازىرقى زامان تور كۆرگۈچلەر ھۆججەتلەرنى ئىشلىتىشكە يول قويىدۇ، ئەمما زىيارەت قىلىش چەكلىك ھەم پەقەت ئىشلەتكۈچى مەلۇم مەشغۇلاتلارنى قىلغاندىلا ئاندىن بۇ ئىقتىدارنى تەمىنلەيدۇ، مەسىلەن، ھۆججەتنى تور كۆرگۈچ كۆزنىكىگە «تاشلاش» ياكى `<input>` خەتكۈش ئارقىلىق تاللاش دېگەندەك.
 
